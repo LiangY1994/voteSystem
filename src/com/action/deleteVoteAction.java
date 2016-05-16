@@ -23,5 +23,5 @@ public class deleteVoteAction extends ActionSupport{
 	}
 	public int getChannelID(){
 		return this.channelID;
-	}
+	} 
 }
