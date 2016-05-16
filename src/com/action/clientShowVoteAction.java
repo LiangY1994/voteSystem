@@ -55,4 +55,4 @@ public class clientShowVoteAction extends ActionSupport{
 	public void setCurrentPage(int currentPage) {
 		this.currentPage = currentPage;
 	}
-}
+} 
