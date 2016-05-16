@@ -33,7 +33,7 @@ public class clientVoteAction extends ActionSupport {
 	}
 	public void setVoteID(int voteID) {
 		this.voteID = voteID;
-	}
+	} 
 	public int getOptionID() {
 		return optionID;
 	}
