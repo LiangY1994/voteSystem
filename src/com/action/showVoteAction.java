@@ -31,7 +31,7 @@ public class showVoteAction extends ActionSupport{
 	public void setCurrentPage(int currentPage) {
 		this.currentPage = currentPage;
 	}
-
+ 
 	public String execute() throws Exception{
 		int sumRecord = VoteDAOFactory.getVoteDAOInstance().findAllAmount();
 		Page page = PageUtil.createPage(5, sumRecord, currentPage);
