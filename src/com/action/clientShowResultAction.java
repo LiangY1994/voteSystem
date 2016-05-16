@@ -28,5 +28,5 @@ public class clientShowResultAction extends ActionSupport{
 	}
 	public void setVoteID(int voteID) {
 		this.voteID = voteID;
-	}
+	} 
 }
