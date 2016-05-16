@@ -1,0 +1,9 @@
+@CHARSET "US-ASCII";
+div#vote{
+	margin: 5px;
+	padding: 1px;
+	border: 1px solid;
+}
+ol#options{
+	margin-left: 2em;
+}
