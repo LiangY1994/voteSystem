@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+        
+<struts>
+    <package name="default" extends="struts-default">
+        <action name="addVote" class="com.action.addVoteAction">
+        	<result name="success">/jsp/addVote.jsp</result>
+        </action>
+        <action name="deleteVote" class="com.action.deleteVoteAction">
+        	<result name="success">/jsp/addVote.jsp</result>
+        </action>
+        <action name="showVote" class="com.action.showVoteAction">
+        	<result name="success">/jsp/showVote.jsp</result>
+        </action>
+        <action name="clientShowVote" class="com.action.clientShowVoteAction">
+        	<result name="success">/jsp/clientShowVote.jsp</result>
+        </action>
+        <action name="clientVote" class="com.action.clientVoteAction">
+        	<result name="success">/jsp/voteResult.jsp</result>
+        </action>
+    	<action name="clientShowResult" class="com.action.clientShowResultAction">
+    		<result name="success">/jsp/voteResult.jsp</result>
+    	</action>
+    </package>
+</struts>
